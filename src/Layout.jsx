@@ -1,5 +1,5 @@
-import { Outlet, useLocation } from "react-router-dom";
-import React, { useState } from "react";
+import { Outlet } from "react-router-dom";
+import { useState } from "react";
 import TrendingHashtags from "@/components/molecules/TrendingHashtags";
 import CreatePostModal from "@/components/organisms/CreatePostModal";
 import Header from "@/components/organisms/Header";
@@ -7,9 +7,7 @@ import MobileNavigation from "@/components/organisms/MobileNavigation";
 import DesktopSidebar from "@/components/organisms/DesktopSidebar";
 
 const Layout = () => {
-  const location = useLocation();
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
-
   return (
     <div className="h-screen flex flex-col overflow-hidden bg-background">
       {/* Header */}
