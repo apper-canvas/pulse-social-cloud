@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "userId": 2,
+    "content": "Beautiful sunset today! 🌅",
+    "mediaUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=1200&fit=crop",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "expiresAt": "2024-01-16T10:30:00Z",
+    "viewedBy": [1, 3]
+  },
+  {
+    "Id": 2,
+    "userId": 3,
+    "content": "New product launch coming soon! 🚀",
+    "mediaUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=1200&fit=crop",
+    "createdAt": "2024-01-15T14:20:00Z",
+    "expiresAt": "2024-01-16T14:20:00Z",
+    "viewedBy": [1]
+  },
+  {
+    "Id": 3,
+    "userId": 4,
+    "content": "Perfect latte art this morning ☕️",
+    "mediaUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=1200&fit=crop",
+    "createdAt": "2024-01-15T08:15:00Z",
+    "expiresAt": "2024-01-16T08:15:00Z",
+    "viewedBy": []
+  },
+  {
+    "Id": 4,
+    "userId": 5,
+    "content": "Amazing street food in Bangkok! 🍜",
+    "mediaUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&h=1200&fit=crop",
+    "createdAt": "2024-01-15T16:45:00Z",
+    "expiresAt": "2024-01-16T16:45:00Z",
+    "viewedBy": [1, 2, 3]
+  }
+]
