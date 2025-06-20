@@ -1,9 +1,10 @@
-import { Outlet, useLocation } from 'react-router-dom';
-import { useState } from 'react';
-import Header from '@/components/organisms/Header';
-import MobileNavigation from '@/components/organisms/MobileNavigation';
-import DesktopSidebar from '@/components/organisms/DesktopSidebar';
-import CreatePostModal from '@/components/organisms/CreatePostModal';
+import { Outlet, useLocation } from "react-router-dom";
+import React, { useState } from "react";
+import TrendingHashtags from "@/components/molecules/TrendingHashtags";
+import CreatePostModal from "@/components/organisms/CreatePostModal";
+import Header from "@/components/organisms/Header";
+import MobileNavigation from "@/components/organisms/MobileNavigation";
+import DesktopSidebar from "@/components/organisms/DesktopSidebar";
 
 const Layout = () => {
   const location = useLocation();
@@ -24,26 +25,10 @@ const Layout = () => {
           <Outlet />
         </main>
         
-        {/* Right Sidebar for larger screens */}
+{/* Right Sidebar for larger screens */}
         <aside className="hidden xl:block w-80 bg-surface/30 border-l border-gray-700 overflow-y-auto">
           <div className="p-6">
-            <div className="bg-gradient-to-br from-primary/20 to-secondary/20 rounded-xl p-6 mb-6">
-              <h3 className="font-heading font-semibold text-lg mb-2">Trending</h3>
-              <div className="space-y-3">
-                <div className="flex justify-between items-center">
-                  <span className="text-sm text-gray-300">#TechNews</span>
-                  <span className="text-xs text-gray-400">12.5k posts</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm text-gray-300">#Photography</span>
-                  <span className="text-xs text-gray-400">8.2k posts</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm text-gray-300">#Travel</span>
-                  <span className="text-xs text-gray-400">6.8k posts</span>
-                </div>
-              </div>
-            </div>
+            <TrendingHashtags />
             
             <div className="bg-gradient-to-br from-secondary/20 to-accent/20 rounded-xl p-6">
               <h3 className="font-heading font-semibold text-lg mb-4">Suggested for you</h3>
