@@ -1,0 +1,66 @@
+[
+  {
+    "Id": 1,
+    "postId": "1",
+    "userId": "2",
+    "content": "This looks amazing! Would love to see the documentation you mentioned.",
+    "createdAt": "2024-01-15T15:00:00Z",
+    "likes": 8
+  },
+  {
+    "Id": 2,
+    "postId": "1",
+    "userId": "3",
+    "content": "Great work John! TypeScript really makes a huge difference in component libraries.",
+    "createdAt": "2024-01-15T15:15:00Z",
+    "likes": 12
+  },
+  {
+    "Id": 3,
+    "postId": "2",
+    "userId": "1",
+    "content": "Absolutely stunning shot! The colors are incredible.",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "likes": 5
+  },
+  {
+    "Id": 4,
+    "postId": "2",
+    "userId": "4",
+    "content": "Nature photography at its finest! What camera did you use?",
+    "createdAt": "2024-01-15T11:00:00Z",
+    "likes": 3
+  },
+  {
+    "Id": 5,
+    "postId": "4",
+    "userId": "2",
+    "content": "That latte art is perfection! Teach me your secrets ☕️",
+    "createdAt": "2024-01-15T09:00:00Z",
+    "likes": 15
+  },
+  {
+    "Id": 6,
+    "postId": "4",
+    "userId": "5",
+    "content": "I need to visit your coffee shop next time I'm in town!",
+    "createdAt": "2024-01-15T09:30:00Z",
+    "likes": 7
+  },
+  {
+    "Id": 7,
+    "postId": "5",
+    "userId": "1",
+    "content": "Tokyo is on my bucket list! This photo makes me want to book a flight right now.",
+    "createdAt": "2024-01-15T08:00:00Z",
+    "likes": 18
+  },
+  {
+    "Id": 8,
+    "postId": "5",
+    "userId": "3",
+    "content": "The architecture there is truly unique. Did you visit any temples?",
+    "createdAt": "2024-01-15T08:30:00Z",
+    "likes": 6
+  }
+]

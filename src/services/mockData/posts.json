@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "userId": "1",
+    "content": "Just finished building an amazing React component library! The developer experience is incredible with proper TypeScript support and comprehensive documentation. #ReactJS #WebDev #TypeScript",
+    "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop",
+    "likes": 142,
+    "comments": 28,
+    "createdAt": "2024-01-15T14:30:00Z",
+    "hashtags": ["#ReactJS", "#WebDev", "#TypeScript"]
+  },
+  {
+    "Id": 2,
+    "userId": "2",
+    "content": "Beautiful sunset from my morning hike! Nature never fails to inspire creativity and peaceful moments. #Photography #Nature #Sunset",
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    "likes": 89,
+    "comments": 15,
+    "createdAt": "2024-01-15T10:15:00Z",
+    "hashtags": ["#Photography", "#Nature", "#Sunset"]
+  },
+  {
+    "Id": 3,
+    "userId": "3",
+    "content": "Working on some exciting new features for our startup! The team's energy is infectious and we're solving real problems for thousands of users. Can't wait to share what we're building! 🚀",
+    "imageUrl": null,
+    "likes": 67,
+    "comments": 12,
+    "createdAt": "2024-01-15T09:00:00Z",
+    "hashtags": []
+  },
+  {
+    "Id": 4,
+    "userId": "4",
+    "content": "Coffee art level: Expert ☕️ There's something magical about the perfect latte that kickstarts a productive day. #Coffee #LatteArt #MorningVibes",
+    "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=600&fit=crop",
+    "likes": 156,
+    "comments": 31,
+    "createdAt": "2024-01-15T08:30:00Z",
+    "hashtags": ["#Coffee", "#LatteArt", "#MorningVibes"]
+  },
+  {
+    "Id": 5,
+    "userId": "5",
+    "content": "Exploring the vibrant streets of Tokyo! Every corner tells a story and the blend of traditional and modern architecture is absolutely stunning. This city never sleeps and neither do I! #Travel #Tokyo #Japan #Architecture",
+    "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&h=600&fit=crop",
+    "likes": 203,
+    "comments": 45,
+    "createdAt": "2024-01-15T07:45:00Z",
+    "hashtags": ["#Travel", "#Tokyo", "#Japan", "#Architecture"]
+  }
+]
